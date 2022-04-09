@@ -29,13 +29,26 @@ body.dark--mode{
     --box-shadow:2px 2px 10px rgba(3, 0, 5, 0.378);
     --white-color:#fff;
     --hover-color: rgba(5, 3, 7, 0.3);
-    --title-color:#76a8f5;
+    --title-color:#3a84f5;
     --bg-color: #1b1c22;
     --hover-box:rgba(5, 3, 7, 0.3);
     --header-bg:#0f0f10;
     --search-with-filter:#23242a;
-    --text-details:#ee9c9c;
+    --text-details:#eec2c2;
 }
+/* 
+.dark--mode{
+    --text-color:#f0f0f0;
+    --box-shadow:2px 2px 10px rgba(3, 0, 5, 0.378);
+    --white-color:#fff;
+    --hover-color: rgba(5, 3, 7, 0.3);
+    --title-color:#3a84f5;
+    --bg-color: #1b1c22;
+    --hover-box:rgba(5, 3, 7, 0.3);
+    --header-bg:#0f0f10;
+    --search-with-filter:#23242a;
+    --text-details:#eec2c2;
+} */
 
 body.dark--mode .dark-mode > span
 {

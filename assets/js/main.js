@@ -37,7 +37,7 @@ let app = {
               // Older browser don't support the second parameter in the
               // classList.toggle method so you'd need to handle this manually
               // if you need to support older browsers.
-              document.documentElement.classList.toggle("dark--mode", state);
+              body.classList.classList.toggle("dark--mode", state);
             }
           
             // Initial setting
@@ -156,4 +156,6 @@ function countryModal(data__){
             div.innerHTML = '';
        })
 }
+
+
 
