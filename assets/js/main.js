@@ -4,7 +4,7 @@ let regions  = [...document.querySelectorAll('.filter-list__item')];
 let btnDark = document.querySelector('.dark-mode');
 let body = document.querySelector('body');
 
-// handing when occur erron
+// handing when page occur erron
 let errElement = document.createElement('div');
     errElement.className = 'erron'
     errElement.innerHTML = 'Sory, trang web của chúng tôi đang xải ra một số lỗi!';
@@ -16,6 +16,11 @@ let app = {
     getApi(){
         let GetCountrys = async (data) => {
             try{
+               country__body.innerHTML =  ` 
+               <div class="loading-wrap">
+               <div class="loading"></div>
+               </div>`
+
                 const res = await fetch(data);
                 const callback = await res.json();
                 renderUI(callback);             
