@@ -309,8 +309,8 @@ label{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    overflow: hidden;
     padding: 0 30px;
+    overflow-y: scroll;
 }
 
 .country__modal.show{
